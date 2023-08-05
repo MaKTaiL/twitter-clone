@@ -10,7 +10,13 @@ export function ProfilePicture({
 }) {
   return src ? (
     <div className="overflow-hidden rounded-full">
-      <Image src={src} alt="Profile Image" width={size} height={size} />
+      <Image
+        src={src}
+        alt="Profile Image"
+        width={size}
+        height={size}
+        priority
+      />
     </div>
   ) : (
     <div className={`overflow-hidden rounded-full bg-gray-300 text-6xl`}>
