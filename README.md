@@ -25,6 +25,7 @@ DISCORD_CLIENT_ID=""
 DISCORD_CLIENT_SECRET=""
 ```
 
+I used a PlanetScale database originally, so make sure you make the appropriate changes to the prisma.schema if you use a different database.
 Replace the values with your own database URL, Discord client ID, and Discord client secret.
 
 Then, run the database migrations:
@@ -46,9 +47,3 @@ npm run dev
 - Prisma for database access and migrations
 - Tailwind for styling
 - Tanstack Query for asynchronous state management
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
